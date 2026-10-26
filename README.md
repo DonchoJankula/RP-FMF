@@ -45,3 +45,4 @@ Uporabne povezave
 2. [Računalniški sistemi, storitve in oprema za študente](https://ucilnica.fmf.uni-lj.si/mod/page/view.php?id=51619)
 3. [Zapiski in vaje za Računalniški praktikum](https://racunalniski-praktikum.github.io/)
 4. [Dokumentacija za Markdown na GitHubu](https://docs.github.com/en/get-started/writing-on-github/5getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+5. [Urnik FMF](https://urnik.fmf.uni-lj.si/)
