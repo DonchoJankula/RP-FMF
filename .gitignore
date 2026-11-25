@@ -1,10 +1,16 @@
+# VSCode uporabniške nastavitve
 .vscode/
+
+# LaTeX
 *.aux
 *.bbl
 *.blg
 *.fdb_latexmk
 *.toc
 *.fls
+*.idx
+*.ilg
+*.ind
 *.log
 *.nav
 *.out
@@ -12,3 +18,18 @@
 *.pyc
 *.snm
 *.synctex.gz
+*.synctex(busy)
+
+# Arhivi, iz katerih smo datoteke že odpakirali
+*.zip
+
+# MacOS
+__MACOSX
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Python
+__pycache__
+*.pyc
