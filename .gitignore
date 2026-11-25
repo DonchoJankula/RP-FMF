@@ -15,6 +15,7 @@
 *.nav
 *.out
 *.pdf
+!slika.pdf
 *.pyc
 *.snm
 *.synctex.gz
