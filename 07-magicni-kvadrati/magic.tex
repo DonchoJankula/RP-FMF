@@ -326,11 +326,3 @@ magični kvadrati redov 5, 6 in 9.
 
 \end{document}
 ```[cite: 1, 8, 9, 10, 11]
-
-### Povzetek sprememb glede na priloženi `magic-resitev.pdf`[cite: 1, 11]:
-* **Naslovna slika (`slika.pdf`):** Vstavljena v okolje `center` takoj za `\maketitle`[cite: 1, 9, 11].
-* **Slike (`durer.png` in `sagrada.png`):** Oblikovani z okoljem `figure[!ht]`, `\centering`, ustreznim merilom (`scale=1.3` oziroma `scale=0.45`), `\caption` in `\label`, sklica `??` pa sta zamenjana z `\ref{fig:durer}` in `\ref{fig:sagrada}`[cite: 1, 8, 10, 11].
-* **Ukaz `\pojem`:** Dodan paket `xcolor` in ukaz `\newcommand{\pojem}[1]{\emph{\color{purple}#1}}`, uporabljen v vseh okoljih `definicija`, medtem ko *Lo Shu* in *Kubera-Kolam* ostaneta zgolj z `\emph`[cite: 1, 11].
-* **Okolji `dokaz` in `magic`:** Dokaz izreka uporablja `\begin{dokaz} ... \end{dokaz}` (z naslovom *Dokaz izreka*), vse tabele magičnih kvadratov pa uporabljajo novo okolje `magic` s tremi argumenti in stolpci `|*{#1}{c|}` ter ustreznimi sklici `\ref{...}` namesto `?!?`[cite: 1, 11].
-
-Če želiš pomoč še pri `matematika.tex` ali pri nastavitvah `.gitignore` in GitHubu, mi samo povej!
